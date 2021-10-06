@@ -1,14 +1,9 @@
 .flexContainer{
-    
-    flex-direction: column;
-   width: 33%;
-text-align: center;
-font-display: row;
-display: inline;
+flex-direction: column;
 
 
-   
 }
+
 .myWork{
     margin: 20px;
     padding: 20px 70px;
@@ -20,10 +15,9 @@ display: inline;
 .mySkills{
     align-self: center;
     gap: 10px 2em;
-    
+    background-color: #476AC9;
     margin: 20px;
     padding: 20px 70px;
-    background-color: #476AC9;
     text-align: center;
     float:center;    
 }
@@ -66,4 +60,14 @@ button {
   footer li {
     display: inline-block;
     padding: 0px 7px;
+  }
+
+  
+      
+  @media only screen and (max-width: 600px) {
+    body {
+     
+        width:100%;
+      background-color: lightblue;
+    }
   }
