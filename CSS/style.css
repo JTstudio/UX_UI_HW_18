@@ -1,7 +1,33 @@
 .flexContainer{
-    display: flex;
-    width: 33%;
+    
+    flex-direction: column;
+   width: 33%;
+text-align: center;
+font-display: row;
+display: inline;
+
+
+   
 }
+.myWork{
+    margin: 20px;
+    padding: 20px 70px;
+    background-color: #476AC9;
+    text-align: center;
+    float:center;   
+}
+
+.mySkills{
+    align-self: center;
+    gap: 10px 2em;
+    
+    margin: 20px;
+    padding: 20px 70px;
+    background-color: #476AC9;
+    text-align: center;
+    float:center;    
+}
+
 body {
     margin: 0;
   }
