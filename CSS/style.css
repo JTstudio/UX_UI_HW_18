@@ -1,3 +1,7 @@
+.flexContainer{
+    display: flex;
+    width: 33%;
+}
 body {
     margin: 0;
   }
@@ -16,26 +20,8 @@ body {
   header p {
     display: inline-block;
   }
-  .heroImg {
-    background-color: #EBEBEB;
-    padding: 100px 50px;
-    align-self: center;
-   
-   
-    
-  }
-  .content {
-    gap: 10px 2em;
-    max-width: 300px;
-    margin: 20px;
-    padding: 20px 70px;
-    background-color: #476AC9;
-    text-align: center;
-    float:center;   
-  }
 
-
-  button {
+button {
     padding: 15px;
     background-color: #373738;
     color: white;
