@@ -1,8 +1,12 @@
 .flexContainer{
 flex-direction: column;
-
+float:center; 
+   
+    background:blue;
+    margin:10px;
 
 }
+
 
 .myWork{
     margin: 20px;
@@ -66,8 +70,8 @@ button {
       
   @media only screen and (max-width: 600px) {
     body {
-     
+     flex-direction: column;
         width:100%;
-      background-color: lightblue;
+   
     }
   }
