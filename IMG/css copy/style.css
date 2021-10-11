@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.page-header{
+    background-color: #414040;
+}
+    
+ ul.navigation {
+     float:right;
+     padding-right: 20px;
+    line-height: 2em;
+        }
+
+        a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+    ul.navigation li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+      color: black;
+          }
+
+    .hero{
+            background-color:#414040;
+            background-size:cover;
+            height:450px;
+    }
+
+    .hero-message p{
+        font-family:'Antic', arial;
+        padding: 300px 0% 0;
+        color: white;
+        text-align: center;
+        position:relative;
+        bottom: 300px;
+     
+      }
+
+      .hero-message h1{
+        font-family:'Antic', arial;
+        padding:0px 10% 0;
+        color: white;
+        text-align: center;
+       top: 50px;
+      }
+
+      .hero-message a.button{
+        color: black;
+        font-weight:700;
+        background-color: white;
+        padding:8px 15px;
+        border-radius: 25px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+       }
+
+    
+    /* For some reason, I cant get the bottom nav to line up like my top nav, I've tried so many things at this point I really don't know how to fix this, Google is not helping me on this aha */
+
+
+    ul.footer nav li{
+        
+      list-style: none;
+      display: inline-block;
+      margin: 0 10px;
+    color: black;
+ 
+              
+          }
+
+          ul.footer{
+            background-color: #20242F;
+            vertical-align: top;
+          }
+           
